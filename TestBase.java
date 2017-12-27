@@ -72,7 +72,10 @@ public class TestBase {
 		}
 		
 	}
-	
+	public static void CloseBrowser2()
+	{
+		driver.quit();
+	}
 	public static void CloseBrowser()
 	{
 		driver.quit();
