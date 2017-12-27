@@ -20,5 +20,10 @@ public class Loginpage extends TestBase {
 	 password.sendKeys(prop.getProperty("password"));
 	 login.click();
  }
-
+ public void login2()
+ {
+	 username.sendKeys(prop.getProperty("username"));
+	 password.sendKeys(prop.getProperty("password"));
+	 login.click();
+ }
 }
